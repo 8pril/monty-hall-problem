@@ -27,7 +27,7 @@ for _ in range(trial):
     empty_door.remove(com)
     
     # 선택을 바꾼경우
-    if not emtpy_door:
+    if not empty_door:
         change += 1
         
 print("선택을 바꾸지 않은 경우:", no_change/trial, "%")
